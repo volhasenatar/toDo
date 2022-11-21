@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(180deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  font-family: "Oswald", sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main .todo-list {
+  width: 30%;
+  background: whitesmoke;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+#main .todo-list div {
+  margin: 15px;
+}
+#main .todo-list_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .todo-list_items input {
+  width: 75%;
+  height: 40px;
+  border-radius: 3px;
+  border: 2px solid rgb(189, 189, 189);
+  outline: none;
+  font-size: 20px;
+}
+#main .todo-list_items button {
+  margin: 0 0 0 20px;
+  width: 20%;
+  height: 45px;
+  background: rgb(159, 83, 230);
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+#main .todo-list_items button:hover {
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+#main .todo-list_text {
+  text-align: center;
+}
+#main .todo-list_text h2 {
+  font-size: 40px;
+}
+#main .todo-list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+#main .todo-list_item button {
+  margin: 0 0 0 20px;
+  width: 20%;
+  height: 45px;
+  background: rgb(159, 83, 230);
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+#main .todo-list_item button:hover {
+  background-color: hwb(0 29% 2%);
+  transition: all 1s ease;
+}
+#main .todo-list_item li {
+  width: 100%;
+  font-size: 20px;
+}
+#main .todo-list_item .toDoCompleted {
+  text-decoration: line-through;
+}
+#main .summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .summary p {
+  font-size: 20px;
+}
+#main .summary button {
+  margin: 0 0 0 20px;
+  width: 25%;
+  height: 45px;
+  background: rgb(159, 83, 230);
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+#main .summary button:hover {
+  opacity: 0.7;
+  transition: all 1s ease;
+}/*# sourceMappingURL=style.css.map */
